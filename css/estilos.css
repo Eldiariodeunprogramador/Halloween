@@ -1,0 +1,91 @@
+/* VAMOS A TRABAJAR CON FONT DE GOOGLE ADEMÁS CON ICONOS GOOGLE LOS CULAES SE IMPORTAN PARA PODER SER
+   INSTALADOS, VAMOS A TRABAJAR TAMBIÉN CON :ROOT - DEFINIR LA PALETA DE COLORER, LUEGO VAMOS A TRABAJAR
+   CON :FONTOS EN CSS */
+
+   /* ESTILOS GLOBALES */
+
+   *{
+      margin: 0; /*Elimina el margen de la página*/
+      padding: 0; /*elimina espacios internos*/
+      box-sizing: border-box;
+   }
+/* CREACIÓN DE VARIABLES: Colores, fuentes, espacios, bordes*/
+:root
+{
+   --color_fondo: tomato;
+   --color_texto: red;
+   --color_negro: #000000;
+   --color_blanco: #ffffff;
+}
+
+.menu
+{
+  background-color: var(--color_fondo);
+  padding: 20px;
+  justify-items: center;
+  text-align: center;
+}   
+
+.menu a
+{
+   color: var(--color_blanco);
+   text-decoration: none;
+   padding: 20px;
+}
+
+.menu span 
+{
+   font-size: 18px;
+   padding: 0;
+   color: var(--color_negro);
+}
+
+.menu a:hover
+{
+   background-color: var(--color_blanco);
+   color: var(--color_fondo)
+}
+
+.encabezado
+{
+   background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-halloween-banner-background-picture-image_951739.jpg");
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 250px;
+   background-size: cover;
+   
+   
+}
+
+.encabezado h1
+{
+   font-size: 45px;
+   color: var(--color_blanco);
+   padding: 45px;
+   text-align: center;
+   font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.contenedor-principal
+{
+   width: 80%; /* Va a tomar el tamaño de la página */
+   box-shadow: 10px -10px 8px -5px rgb(0, 0, 0, 0.5);
+   text-align: justify;
+   font-family: "Playwrite AR", cursive;
+   margin-top: 40px;
+   margin-left: 10%;
+}
+
+.contenedor-principal h2
+{
+font-family: "Playwrite AR", cursive;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+
+
